@@ -11,11 +11,18 @@
 
 /* 2.a.1 Tipo Letra: "Viajes Chile" --> SIGMAR */
 .navbar-brand {
-    font-family: 'Sigmar', cursive;   
+    font-family: 'Sigmar', cursive;
 }
 /* 2.a.2 Tipo Letra: "Lista Menú" --> ROBOTO */
 .nav-item {
+    border-radius: 10px;
+    margin: 5px;
     font-family: 'Golos Text', sans-serif;
+    text-align: center;
+    background-color: rgb(223, 86, 40);
+    width: 9rem;
+    color: black;
+    font-size: bold;
 
 }  
 
