@@ -16,9 +16,7 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Pangolin&family=Rokkitt:wght@300;400;800&family=Sigmar&family=Zeyada&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Pangolin&family=Roboto&family=Rokkitt:wght@300;400;800&family=Sigmar&family=Zeyada&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>VIAJES CHILE</title>
 
@@ -28,27 +26,28 @@
     <!-- 2. TRABAJO POR SECCIONES -->
 
     <!-- 2.a Sección: Navbar -->
-    
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand nombre-logo" href="#">
+                <img src="./assets/img/viajes.svg" width="20" height="20" alt="">  Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -56,9 +55,8 @@
     </nav>
 
 
-
     <!-- 2.b Sección: Carousel 3 Fotos -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade sticky-top">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./assets/img/carousel1.jpg" class="d-block w-100"
