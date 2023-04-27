@@ -39,8 +39,9 @@
     /* 2.c.1 */
 h2 {
     font-family: 'Sigmar', cursive;
-    font-size: large;
+    font-size: 150%;
     font-weight: 400;
+    text-align: center;
 }
 
 .quienes-somos {
