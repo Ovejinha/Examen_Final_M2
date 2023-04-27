@@ -46,18 +46,38 @@ h2 {
 
 .quienes-somos {
     background-color: rgb(236, 244, 235);
-    
+}  
 
 p {
     font-family: 'Golos Text', sans-serif;
-    font-size: small;
+    font-size: medium;
 }
 
 .fondo-fav {
     background-color: blueviolet;
 }
 
+.precio-tour {
+    background-color: rgb(52, 150, 70);
+    color: white;
+    border-radius: 3px;
+    margin-left: 30px;
+}
 
+.btn-enviar {
+    background-color: rgb(52, 150, 70);
+    color: white;
+
+}
+
+
+#contacto {
+    background-color: rgb(236, 244, 235);
+}
+
+div .contact-me {
+    background-color: rgb(236, 244, 235);
+}
 
     /* 2.c.2 */
     /* 2.c.3 */

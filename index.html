@@ -84,7 +84,7 @@
 
     <!-- 2.c Sección: '¿Quienes Somos?' -->
 
-    <div class="container-fluid quienes-somos pe-5 ps-5 pb-5 border-bottom border-top">
+    <div class="container-fluid quienes-somos pe-5 ps-5 pb-5 border-bottom border-top" id="quienes-somos">
         <h2 class="text-center pt-5">¿QUIÉNES SOMOS?</h2>
         <div class="container text-center mt-5" id="quienes-somos">
             <div class="row">
@@ -127,9 +127,9 @@
 
     <!-- 2.d Sección: 'Destacados' -->
 
-    <div class="container mt-5" id="destacados">
+    <div class="container mt-5 mb-3 pb-5" id="destacados">
         <h2>DESTACADOS</h2>
-        <div class="row row-cols-1 row-cols-md-4 g-4 mt-4 mb-3">
+        <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
             <div class="col-10">
                 <div class="card h-100">
                     <img src="./assets/img/card1.jpg" class="card-img-top h-50" alt="...">
@@ -138,7 +138,7 @@
                         <h6>Torres del Paine</h6>
                         <p class="card-text">Destino Patogonia Chilena</p>
                         <p class="card-text">4 días y 3 Noches</p>
-                        <p class="card-text text-bg-success fs-5">$510.000</p>
+                        <p class="card-text precio-tour fs-5 fw-bold ">$510.000</p>
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@
                         <h6> San Pedro de Atacama</h6>
                         <p class="card-text">Destino al Norte de Chile</p>
                         <p class="card-text">3 días y 2 Noches</p>
-                        <p class="card-text text-bg-success fs-5">$245.000</p>
+                        <p class="card-text precio-tour fs-5 fw-bold text-end">$245.000</p>
                     </div>
                 </div>
             </div>
@@ -162,7 +162,7 @@
                         <h6> San Pedro de Atacama</h6>
                         <p class="card-text">Destino al Norte de Chile</p>
                         <p class="card-text">4 días y 3 Noches</p>
-                        <p class="card-text text-bg-success fs-5">$345.000</p>
+                        <p class="card-text precio-tour fs-5 fw-bold text-end">$345.000</p>
                     </div>
                 </div>
             </div>
@@ -174,13 +174,46 @@
                         <h6>Valdivia y Frutillar</h6>
                         <p class="card-text">Destino al Sur de Chile</p>
                         <p class="card-text">2 días y 1 Noches</p>
-                        <p class="card-text text-bg-success fs-5">$45.000</p>
+                        <p class="card-text precio-tour fs-5 fw-bold text-end">$45.000</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- 2.e Sección: 'Formulario Contacto' -->
+
+    <!-- /* 2.e SECCIÓN:  SECTION CONTACTAME */ -->
+    <div class="container-fluid border-1 border-bottom pt-5 pb-5" id="contacto">
+        <h2>CONTACTO</h2>
+        <div class="container">
+            <div class="row">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label ps-1 fw-bold">Nombre</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label ps-1 fw-bold">Asunto</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label ps-1 fw-bold">Mensaje</label>
+                    <textarea class="form-control text-secondary mb-2" id="exampleFormControlTextarea1" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="d-flex justify-content-start mt-4 mt-lg-1 pb-4 pb-lg-0">
+                <button type="submit" class="btn btn-enviar p-2 pe-4 ps-4 fs-6 mb-2 mb-lg-0">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+        
 
 
     <!-- 3. SCRIPTS UTILIZADOS "Siempre al Final" -->
