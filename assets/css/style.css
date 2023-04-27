@@ -4,6 +4,10 @@
 
 /* 2.a Sección: Navbar*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* 2.a.1 Tipo Letra: "Viajes Chile" --> SIGMAR */
 
 .navbar-brand {
